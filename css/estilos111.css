@@ -1,0 +1,386 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+
+/* enlaces = las palabras que tienen link*/
+a{
+	color:#57ABB8;
+	font-weight: bold;
+	text-decoration: none; /*quitar el subrayado del enlace*/
+}
+
+/*estado hover: cuando pasamos el mouse sebre el enlace*/
+a:hover{
+	color:#F60;
+		
+}
+/*  estilos a header h1 nav */
+
+h1, nav {
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: middle;	
+}
+/*  quitar viñetas y hacer sea vertical el menu*/
+nav ul{
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	padding: 0.1em;
+	vertical-align: top;
+}
+span{
+	color:#57ABB8;
+}
+/*imagenes y videos flexibles*/
+ img{
+	max-width: 100%;
+}
+
+/* figuras  */
+figcaption {
+		font-size: 0.85em;
+		padding: 0.25em;
+		text-align: center;
+}
+
+
+div{
+	margin: .5em;
+}
+/*  estilos a objetos */
+header,  footer{
+/*	background: #090B1A;
+	opacity: 0.9;*/
+	/*margin: 0 auto;*/
+	/*max-width: 100%;*/
+	text-align: center;
+}
+footer{
+/*  color: #DAD9D9;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  height: 65px;
+  display: inline-block;
+  margin-top: 20px;*/
+
+
+}
+
+h2, h3{
+	color: #F90;
+	font-family: "Pecita", Helvetica, Verdana;
+}
+
+h3{
+	background: #E2E7F1;
+	border-radius: 1em;
+	box-shadow: .25em .25em .25em rgba(255,153,0,.5);
+	margin-bottom: .5em;
+	padding-left: .5em;
+
+}
+iframe{
+	border-radius: .5em;
+}
+
+/*BOTONES*/
+ input[type="text"]{
+
+	background: #EEE;
+	border-radius: .25em;
+	color: #F60;
+	font-size: 1em;
+	padding: .25em;
+	width: 95%;
+}
+input[type="text"]:focus{
+background: #C6ECF9;
+}
+input[type="submit"]{
+background: #f90;
+border-radius: 0 .25em;
+color: #500;
+font-family: "Chalet";
+font-size: 1.25em;
+padding: .25em;
+
+}
+
+input[type="submit"]:hover{
+background: #7BBFD5;
+border-radius: .25em 0;
+color: #000;
+cursor: pointer;
+
+}
+label{
+cursor: pointer;
+}
+legend{
+color: #F90;
+font-size: 1.2em;
+font-weight: bold;
+}
+/*lista ordenada*/
+ol{
+	padding: 0 2em;
+}
+ol li{
+	padding: 1em 0;
+}
+/*  estilos a header h1 nav */
+
+h1, nav {
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: middle;	
+}
+/*  quitar viñetas y hacer sea vertical el menu*/
+nav ul{
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	padding: 0.1em;
+	vertical-align: top;
+}
+
+/*  enlaces dentro de nav*/
+
+#nav a {
+	background: #FFF;
+	border: 0.1em solid #57ABB8;
+	border-radius: 0.25em;
+	color: #F60;
+	display: block;
+	font-family: "Pecita", Helvetica, Verdana;
+	font-size: 1.4em;
+	padding: 0.25em;
+	/*trancicion que se vea en los 5 navegadores: necesitan tres atributos*/
+	-ms-transition: all 0.5s ease-in; 
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+/*  enlaces dentro de nav: efecto dashed 0A3DD6=azul */
+#nav a:hover {
+	background: #57ABB8;
+	border: 0.1em solid #F60;
+	border-radius: 0 0.5em 0 0.5em;
+	color: #FFF;
+	-ms-transition: all 0.5s ease-out; 
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+/*-------estilos a los ID*/
+section#foto{
+	
+	background-size: 100% 100%;
+	background: #212121 url(../img/inicio1.jpg);
+	background-size: cover;
+	/*border-radius: 0.5em;*/
+	display: inline-block;
+	margin:0 auto;
+	max-width: 100%;
+	/*padding: 0.25em;*/
+	vertical-align: top;
+	width: 100%;
+	height: 700px;
+	
+}
+#disco{
+	display: inline-block;
+	text-align: left;
+}
+h4#disco{
+	display: inline-block;
+	text-align: left;
+}
+
+section#contenido{
+	text-align: center;
+	margin-bottom: 70px;
+	
+}
+
+section#principal, aside {
+	
+	background: #1E6281;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin:0 auto;
+	max-width: 100%;
+	padding: 0.25em;
+	vertical-align: top;
+	width: 65%;
+	
+}
+
+article#galeria-inicio{
+
+	border-radius: 0.5em;
+	margin: 0.5em;
+	padding: 0.5em;
+	text-align: left;
+	width: 95%;
+	
+}
+
+
+img, #img-eventos img, #img-acerca{
+	
+	border-radius: 0.5em;
+}
+
+article#descripcion-acerca, article#multimedia-acerca{
+	background: #1E6381;
+	border-radius: .5em;
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 100%;
+	min-height: 543px;
+	padding: .5em;
+	text-align: justify;
+	vertical-align: top;
+	width: 45%;
+}
+
+article#multimedia-acerca{
+	text-align: center;
+	width: 25%;
+	
+}
+
+
+article#portada, article#eventos{
+	background: #1E6381;
+	border-radius: .5em;
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 100%;
+	min-height: 543px;
+	padding: .5em;
+	text-align: justify;
+	vertical-align: top;
+	width: 45%;
+}
+
+article#eventos{
+	text-align: center;
+	width: 25%;
+	
+}
+section#trabajos, section#rincon{
+	background: #011E30;
+	border-radius: .5em;
+	margin: 0 auto;
+	max-width: 77%;
+	padding: .5em;
+	text-align: center;
+}
+
+div.portafolio{
+	margin: 2em auto;	
+}
+
+div.portafolio article{
+	display: inline;
+	padding: 1em;
+	
+}
+
+section.container{
+	text-align: center;
+}
+/* clase fade: efectos a las imagenes*/
+.fade{
+	 opacity: 1;
+	 filter: alpha(opacity=10);
+	-ms-transition: all 0.5s ease-in; 
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	}
+	
+.redonda {
+	border-radius: 3.125em;   /*iem=16px  convertir em a pixeles 50px/16px=3.125*/
+	box-shadow: 5px 5px 10px rgba(255,255,255,.3);
+} 
+	
+.fade:hover{
+	
+	opacity:0.7;
+	filter: alpha(opacity=7);
+	-ms-transition: all 0.5s ease-out; 
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+/*Redes sociales*/
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook2 {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-youtube {background:#b31217;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-google-plus2 {background:#d34836;} /* Establecemos los colores de cada red social, aprovechando su class */
+
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+	/*Media queri*/
+@media screen and (max-width: 768px){
+	.social{
+		width: 100%;
+		/*margin-bottom: 20px;*/
+		/*margin-right: 10px;*/
+		position: relative;
+		top: 5px;
+		text-align: center;
+	}
+
+	.social li{
+		display: inline-block;
+		text-align: center;
+
+	}
+	.social ul li a:hover {
+		
+		
+	}
+
+	section#trabajos{
+		width: 100%;
+	}
+}

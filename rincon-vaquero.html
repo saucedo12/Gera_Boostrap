@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> <!--se va ajustar ancho y escala segun el dispositivo-->
+	<meta name="description" content="Bienvenido a mi pagina Gerardo Gameros de Caballo Dorado"/> <!-- portafolio, curriculumn digital -->
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> <!-- mando llamar el icono del sitio-->
+	<link rel="author" type="text/plain" href="humans.txt"/> <!--author de la pagina-->
+	<link rel="sitemap" type="aplication/xml" title="Sitemap" href="sitemap.xml"/> <!--mapa del sitio-->
+	<link rel="stylesheet" href="fonts1.css"/>  <!--mandamos llamar a la carpeta de estilos-->  
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos11.css"/>  <!--mandamos llamar a la carpeta de estilos--> 
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-principal">
+						<span class="sr-only">Desplegar / Ocultar Menu</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- <a href="#" class="navbar-brand">Logo</a> -->
+				</div>
+
+				<!-- Inicia menu -->
+					<div class="collapse navbar-collapse" id="navegacion-principal">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="acerca.html">Biograf&iacute;a</a></li>
+							<li class="active"><a href="rincon-vaquero.html">Rinc&oacute;n Vaquero</a></li>
+							<li><a href="producciones.html">Producciones</a></li>
+							<li><a href="contacto.html">Contacto</a></li>
+						</ul>
+						
+					</div>
+				
+			</div>
+		</nav>
+	</header>
+		<div class="social">
+		<span><b>Social Media</b></span>
+		<ul>
+			<li><a href="https://www.youtube.com/channel/UCUMMH1PV9vLZYaf4FR8meJQ" target="_blank" class="icon-youtube" title="Suscribete a Mi canal" ></a> </li>
+
+			<li><a href="https://www.facebook.com/Gerardo-Gameros-Caballo-Dorado-352875694727957/?fref=ts" target="_blank" class="icon-facebook2" title="Dale Like -Gerardo Gameros-"></a></li>
+			<li><a href="https://www.facebook.com/El-Rincon-Vaquero-755106037935348/?fref=ts" target="_blank" class="icon-facebook2" title="Dale Like -Rinc&oacute;n Vaquero-"></a></li>
+
+			<li><a href="https://plus.google.com/u/0/116561775797371548159" target="_blank" class="icon-google-plus2" title="Seguir en Google+"></a></li>
+
+			<!-- <div class="fb-share-button" data-href="http://10.218.32.177/gera/index.html" data-layout="box_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Compartir</a></div><br> -->
+
+			<!-- Inserta esta etiqueta donde quieras que aparezca Botón Compartir. -->
+			<!-- <div class="g-plus" data-action="share" data-height="24" data-href="https://plus.google.com/u/0/116561775797371548159"></div> -->	
+
+		</ul>
+	    </div>
+	    <section id="contenido">
+	      <section id="rincon" class="container">
+	      	<h2> Algunos de mis videos</h2>
+	      	<div class="col-md-6">
+	      		<article>
+				    <iframe width="480" height="250" src="https://www.youtube.com/embed/watch?v=KRfwx91AQSA&index=11&list=PL58tyPG6jHdoXbRiGUyNxkjYKlNwU5fH8" frameborder="0" allowfullscreen></iframe>
+				</article>
+				<article>
+				    <iframe width="480" height="250" src="https://www.youtube.com/embed/watch?v=D4v4YEWPy6Q&list=PL58tyPG6jHdoXbRiGUyNxkjYKlNwU5fH8&index=7" frameborder="0" allowfullscreen></iframe>
+				</article>
+	      	</div>
+	      	<div class="col-md-6">
+	      		<article>
+				    <iframe width="480" height="250" src="https://www.youtube.com/embed/watch?v=-4DdB___Qvo&index=16&list=PL58tyPG6jHdoXbRiGUyNxkjYKlNwU5fH8" frameborder="0" allowfullscreen></iframe>
+				</article>
+				<article>
+				    <iframe width="480" height="250" src="https://www.youtube.com/embed/watch?v=dBxvYSrIHOw&list=PL58tyPG6jHdoXbRiGUyNxkjYKlNwU5fH8&index=17" frameborder="0" allowfullscreen></iframe>
+				</article>
+	      	</div> 
+		        
+		  </section>
+	</section>
+	<footer>
+			<div><span>Diseño y Programaci&oacute;n de: Humberto Saucedo</span></div>
+		 	<div>México ©2017 Derechos Reservados  www.misitio.com</div>
+	</footer>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- para compartir sitio -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> <!--mandamos llamar plugins jQuery desde servidores de google-->
